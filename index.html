@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis Proyectos</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1em;
-      text-align: center;
-    }
-    section {
-      padding: 2em;
-    }
-    a {
-      color: #1e90ff;
-      text-decoration: none;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Proyectos en GitHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
 </head>
-<body>
-  <header>
-    <h1>Mis Proyectos en GitHub</h1>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col items-center py-10 px-4">
+  <header class="mb-8 text-center">
+    <h1 class="text-3xl font-bold mb-2">Mis Proyectos en GitHub</h1>
+    <p class="text-lg text-gray-600">Portafolio de proyectos destacados</p>
   </header>
-  <section>
-    <h2>Proyectos</h2>
-    <ul>
-      <li><a href="https://github.com/kemely2018/JuegaABC">JuegaABC</a></li>
-      <li><a href="https://github.com/kemely2018/CHUQI-INKA">CHUQI-INKA</a></li>
-      <li><a href="https://github.com/kemely2018/JSPCarritodeCompras">Carrito de Compras</a></li>
-    </ul>
-  </section>
+
+  <main class="w-full max-w-xl">
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Proyectos</h2>
+      <ul class="space-y-3 list-disc list-inside">
+        <li>
+          <a class="text-blue-600 hover:underline" href="https://github.com/kemely2018/JuegaABC" target="_blank" rel="noopener">JuegaABC</a>
+        </li>
+        <li>
+          <a class="text-blue-600 hover:underline" href="https://github.com/kemely2018/CHUQI-INKA" target="_blank" rel="noopener">CHUQI-INKA</a>
+        </li>
+        <li>
+          <a class="text-blue-600 hover:underline" href="https://github.com/kemely2018/Carrito-de-compras" target="_blank" rel="noopener">Carrito de Compras</a>
+        </li>
+        <li>
+          <a class="text-blue-600 hover:underline" href="https://github.com/Leslym03/ECommerce" target="_blank" rel="noopener">E‑Commerce (Tienda virtual)</a>
+        </li>
+        <!-- Nuevo proyecto agregado -->
+        <li>
+          <a class="text-blue-600 hover:underline" href="https://github.com/kemely2018/DASHBOARD" target="_blank" rel="noopener">Dashboard de Visualización</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="mt-auto pt-10 text-sm text-gray-500">
+    <p>&copy; 2025 kemely2018</p>
+  </footer>
 </body>
 </html>
